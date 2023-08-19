@@ -1,4 +1,3 @@
-
 import { generarEnteroAleatorio } from "../../utilities/randomUtilities";
 
 const calcularMediaArmonica = (n: number): number => {

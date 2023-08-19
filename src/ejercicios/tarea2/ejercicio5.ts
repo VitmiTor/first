@@ -1,5 +1,3 @@
-
-
 import { generarEnteroAleatorio } from "../../utilities/randomUtilities";
 
 const calcularPromedioPonderado = (cantidad: number): number => {

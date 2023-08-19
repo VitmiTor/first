@@ -1,8 +1,4 @@
-
-import {
-  generarEnteroAleatorio,
-  generarDecimalAleatorio,
-} from "../../utilities/randomUtilities";
+import { generarDecimalAleatorio } from "../../utilities/randomUtilities";
 
 const calcularDolares = (convertidor: string, ahorros: number) => {
   switch (convertidor) {

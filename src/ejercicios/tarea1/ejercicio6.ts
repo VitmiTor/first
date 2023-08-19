@@ -1,8 +1,4 @@
-
-
-import {
-  generarDecimalAleatorio,
-} from "../../utilities/randomUtilities";
+import { generarDecimalAleatorio } from "../../utilities/randomUtilities";
 
 const imc = (peso: number, altura: number) => {
   return peso / Math.pow(altura, 2);

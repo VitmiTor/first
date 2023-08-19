@@ -1,5 +1,3 @@
-
-
 const hola = "hola";
 
 const aloha = "aloha";

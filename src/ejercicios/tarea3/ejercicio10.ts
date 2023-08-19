@@ -28,7 +28,7 @@ const imprimirMensaje = (arrayMayor: number[], arrayMenor: number[]): void => {
 
 const tam = generarEnteroAleatorio(1, 10);
 const arrayNuevo = arrayAleatorio(tam, 1, 100);
-const arrayMayor = [];
-const arrayMenor = [];
+const arrayMayor: number[] = [];
+const arrayMenor: number[] = [];
 mayorNumero(arrayNuevo, arrayMayor, arrayMenor);
 imprimirMensaje(arrayMayor, arrayMenor);

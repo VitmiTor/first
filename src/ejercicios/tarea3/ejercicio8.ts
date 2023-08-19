@@ -28,8 +28,8 @@ const imprimirMensaje = (
 
 const tam = generarEnteroAleatorio(1, 10);
 const arrayNuevo = arrayAleatorio(tam, 10, 100);
-const arrayPrimos = [];
-const arrayCompuestos = [];
+const arrayPrimos: number[] = [];
+const arrayCompuestos: number[] = [];
 
 poblarArrays(arrayNuevo, arrayPrimos, arrayCompuestos);
 console.log(arrayNuevo);

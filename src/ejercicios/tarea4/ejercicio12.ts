@@ -23,6 +23,6 @@ const poblarArrays = (
   console.log("Array No capicuas " + arrayNoCapicuas);
 };
 
-const arrayCapicuas = [];
-const arrayNoCapicuas = [];
+const arrayCapicuas: number[] = [];
+const arrayNoCapicuas: number[] = [];
 poblarArrays(listaJson, arrayCapicuas, arrayNoCapicuas);

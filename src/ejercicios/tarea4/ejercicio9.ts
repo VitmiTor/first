@@ -23,8 +23,8 @@ const imprimirMensaje = (resultado: number): void => {
   console.log(`El promedio ponderado es ${resultado.toFixed(2)}`);
 };
 
-const arrayX = [];
-const arrayPeso = [];
+const arrayX: number[] = [];
+const arrayPeso: number[] = [];
 rellenarArrays(arrayNumbers, arrayX, arrayPeso);
 const resultado = PromedioPonderado(arrayX, arrayPeso);
 imprimirMensaje(resultado);

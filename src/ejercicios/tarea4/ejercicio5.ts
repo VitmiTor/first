@@ -49,8 +49,8 @@ const imprimirResultados = (arrayInocentes: string[], titulo: string) => {
   console.log("El tamaño del arreglo es " + arrayInocentes.length);
 };
 
-const arrayInocentes = [];
-const arrayCulpables = [];
+const arrayInocentes: string[] = [];
+const arrayCulpables: string[] = [];
 
 rellenarArrays(culpablesJson, arrayInocentes, arrayCulpables);
 imprimirResultados(arrayInocentes, "inocentes");

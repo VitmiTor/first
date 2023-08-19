@@ -1,5 +1,3 @@
-
-
 import personasJson from "../../files/personas.json";
 
 const estaAprobado = (nota: number): boolean => {

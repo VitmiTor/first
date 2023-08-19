@@ -30,7 +30,7 @@ const imprimirMensaje = (
 
 const tam = generarEnteroAleatorio(1, 10);
 const arrayNuevo = arrayAleatorio(tam, 100, 10000);
-const arrayCapicua = [];
-const arrayNotCapicua = [];
+const arrayCapicua: number[] = [];
+const arrayNotCapicua: number[] = [];
 poblarArrays(arrayNuevo, arrayCapicua, arrayNotCapicua);
 imprimirMensaje(arrayCapicua, arrayNotCapicua);

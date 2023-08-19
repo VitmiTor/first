@@ -1,5 +1,3 @@
-
-
 import { generarEnteroAleatorio } from "../../utilities/randomUtilities";
 
 const numCabezas = (vacas: number, gallinas: number): number => {

@@ -4,12 +4,11 @@ import {
 } from "../../utilities/randomUtilities";
 
 const calcularInversa = (numero: number) => {
-  let residuo = 0;
   let inverso = 0;
   let aux = numero;
 
   while (aux != 0) {
-    residuo = aux % 10;
+    const residuo = aux % 10;
     inverso = inverso * 10 + residuo;
     aux = Math.trunc(aux / 10);
   }
@@ -17,11 +16,7 @@ const calcularInversa = (numero: number) => {
 };
 
 const verificarCapicua = (numero: number, inversa: number): boolean => {
-  if (numero === inversa) {
-    return true;
-  } else {
-    return false;
-  }
+  return numero === inversa;
 };
 
 const imprimirMensaje = (

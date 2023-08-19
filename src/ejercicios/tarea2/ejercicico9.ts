@@ -1,4 +1,3 @@
-
 import { generarEnteroAleatorio } from "../../utilities/randomUtilities";
 
 const calcularFactorial = (numero: number): number => {

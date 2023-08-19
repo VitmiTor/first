@@ -18,4 +18,5 @@ const imprimirMensaje = (cantidadN: number, resultado: number): void => {
 const cantidadN = generarEnteroAleatorio(1, 10);
 const arrayNumber = arrayAleatorio(cantidadN, 100, 999);
 const resultado = calcularMediaArmonica(arrayNumber);
+
 imprimirMensaje(cantidadN, resultado);
